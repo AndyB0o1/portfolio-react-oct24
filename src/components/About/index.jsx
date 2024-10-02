@@ -48,13 +48,11 @@ export default function About() {
                 </p>
                 <br></br>
                 <p>My previous career experience means I bring additional skills to roles such as problem solving,
-                    stakeholder engagement, teamworking,
-                    requirement gathering, project management, time management and strong communication skills. Having also
-                    been the 'customer'
-                    for development projects means I bring an additional, and hopefully useful, perspective to software
-                    development roles.
+                    stakeholder engagement, teamworking, requirement gathering, project management, time management and strong 
+                    communication skills. Having also been the 'customer' for development projects means I bring an additional, 
+                    and hopefully useful, perspective to software development roles.
                 </p>
-                <a href="src/assets/AndyBoolDevCV.pdf" target="_blank" className="font-bold hover:text-orange-500">See my CV</a>
+                <a href="public/images/AndyBoolDevCV.pdf" target="_blank" className="font-bold hover:text-orange-500">See my CV</a>
             </div>
         </div>
     )
