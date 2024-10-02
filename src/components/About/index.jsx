@@ -30,7 +30,7 @@ export default function About() {
                     <p className="text-orange-500">{bracket2}</p>
                 </div>
             </div>
-            <div className="aboutMe hidden p-2 m-1 bg-orange-100 font-mono text-cyan-900 text-sm md:text-lg" onClick={revealAbout}>
+            <div className="aboutMe hidden p-2 m-1 bg-orange-100 font-mono text-cyan-900 text-sm sm:text-base" onClick={revealAbout}>
                 <p>Hi, I'm Andy, a Full Stack Developer with an interest in both front and
                     back-end development
                     and experience of working in HTML, CSS, JS, React, PHP and Laravel</p>
@@ -54,6 +54,7 @@ export default function About() {
                     for development projects means I bring an additional, and hopefully useful, perspective to software
                     development roles.
                 </p>
+                <a href="src/assets/AndyBoolDevCV.pdf" target="_blank" className="font-bold hover:text-orange-500">See my CV</a>
             </div>
         </div>
     )
