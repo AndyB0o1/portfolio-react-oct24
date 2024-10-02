@@ -53,7 +53,7 @@ export default function Projects() {
                     <div className="mb-2 p-2 border-b border-cyan-900 basis-2/5 font-mono">
                         <h3 className="mb-5 font-bold">Laravel RESTful API for a book swap site</h3>
                         <div className="h-72 mb-4 content-center">
-                            <img src="public/images/laravel-book-swap.png" alt="Laravel code" className="h-72 mx-auto" />
+                            <img src="/laravel-book-swap.png" alt="Laravel code" className="h-72 mx-auto" />
                         </div>
                         <p className="mb-2">Using the Laravel framework, PHP and a supplied React front-end to develop a RESTful API for the back end of a book swap site.
                             I pair programmed a number of elements including appropriate unit tests, methods to view details of multiple or single books,
@@ -66,7 +66,7 @@ export default function Projects() {
                     <div className="mb-2 p-2 border-b border-cyan-900 basis-2/5 font-mono">
                         <h3 className="mb-5 font-bold">Using React to build an invoicing app</h3>
                         <div className="h-72 mb-4 content-center">
-                            <img src="public/images/React.png" alt="Invoicing app homepage" className="h-72 mx-auto" />
+                            <img src="/React.png" alt="Invoicing app homepage" className="h-72 mx-auto" />
                         </div>
                         <p className="mb-2">Using React with a provided API, we developed an invoicing system to match a required spec and design. I pair programmed the homepage showing all
                             invoices and their status along with the number unpaid and the individual invoice page showing the full details of an invoice, using Tailwind for
@@ -77,7 +77,7 @@ export default function Projects() {
                     <div className="mb-2 p-2 border-b border-cyan-900 basis-2/5 font-mono">
                         <h3 className="mb-5 font-bold">PHP, MySQL, Object-Oriented Programming</h3>
                         <div className="h-72 mb-4 content-center">
-                            <img src="public/images/OOP.png" alt="Music app homepage" className="h-72 mx-auto" />
+                            <img src="/OOP.png" alt="Music app homepage" className="h-72 mx-auto" />
                         </div>
                         <p className="mb-2">Using PHP and a supplied SQL database to develop a music app matching required spec and design. I pair programmed the homepage showing
                             three random artists and their albums, a page displaying all artists, their albums and song counts on each album and also a favourites element on the
@@ -89,7 +89,7 @@ export default function Projects() {
                     <div className="mb-2 p-2 border-b border-cyan-900 basis-2/5 font-mono">
                         <h3 className="mb-5 font-bold">A simple weather app in React</h3>
                         <div className="h-72 mb-4 content-center">
-                            <img src="public/images/weather-forecast.png" alt="Weather forecast app homepage" className="h-72 mx-auto" />
+                            <img src="/weather-forecast.png" alt="Weather forecast app homepage" className="h-72 mx-auto" />
                         </div>
                         <p className="mb-2">A simple weather app in React. Developed after finishing my course using an openweathermap api, the user can search by city to see an overview of the local weather and a
                             basic 5 day forecast.</p>
