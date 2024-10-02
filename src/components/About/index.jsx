@@ -18,9 +18,9 @@ export default function About() {
 
     return (
         <div>
-            <div className="about p-2 m-1 bg-black font-mono text-white" onClick={revealAbout}>
-                <p><span className="text-xl text-orange-500">About </span><span className="text-xl">Me</span></p>
-                <div className="aboutText">
+            <div className="about p-2 m-1 bg-black font-mono text-base sm:text-xl text-white" onClick={revealAbout}>
+                <p><span className="text-orange-500">About </span><span>Me</span></p>
+                <div className="aboutText text-xs sm:text-base">
                     <p><span className="text-pink-500">export default </span><span className="text-sky-500">function </span><span className="text-yellow-300">About</span>() <span className="text-orange-500">{bracket1}</span></p>
                     <p className="text-white">return {bracket3} </p>
                     <p className="ml-2"><span>{openingTag}</span><span className="text-cyan-400">{class1}</span><span className="text-orange-500">{class2}</span><span className="text-cyan-400">{class3}</span>{bracket1}<span className="text-yellow-300">{class4}</span>{bracket2}{class5}</p>
@@ -30,7 +30,7 @@ export default function About() {
                     <p className="text-orange-500">{bracket2}</p>
                 </div>
             </div>
-            <div className="aboutMe hidden p-2 m-1 bg-white font-mono text-black" onClick={revealAbout}>
+            <div className="aboutMe hidden p-2 m-1 bg-orange-100 font-mono text-cyan-900 text-sm md:text-lg" onClick={revealAbout}>
                 <p>Hi, I'm Andy, a Full Stack Developer with an interest in both front and
                     back-end development
                     and experience of working in HTML, CSS, JS, React, PHP and Laravel</p>
