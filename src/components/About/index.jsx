@@ -52,7 +52,7 @@ export default function About() {
                     communication skills. Having also been the 'customer' for development projects means I bring an additional, 
                     and hopefully useful, perspective to software development roles.
                 </p>
-                <a href="/AndyBoolDevCV.pdf"target="_blank" className="font-bold hover:text-orange-500">See my CV</a>
+                <a href="/AndyBoolCV.pdf"target="_blank" className="font-bold hover:text-orange-500">See my CV</a>
             </div>
         </div>
     )
