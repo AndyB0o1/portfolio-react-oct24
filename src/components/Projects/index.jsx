@@ -51,6 +51,23 @@ export default function Projects() {
             <div className="max-h-96 overflow-auto sm:max-h-none">
                 <div className="projects hidden flex flex-col sm:flex-row flex-wrap justify-around mx-auto gap-2 p-2 bg-orange-100 font-mono text-cyan-900 text-sm sm:text-base">
                     <div className="mb-2 p-2 border-b border-cyan-900 basis-2/5 font-mono">
+                        <h3 className="mb-5 font-bold">My Bird List app</h3>
+                        <div className="h-72 mb-4 content-center">
+                            <video controls>
+                                <source src="/BirdAppVid.mp4" alt="demo of app" type="video/mp4" className="h-72 mx-auto" />
+                            </video>
+                        </div>
+                        <p className="mb-2">A work in progress... Since a very young age, I have been an avid birdwatcher and I have kept track of the separate species I've seen in the back of a birdwatching guide I had.
+                            My sister 'borrowed' that a while ago so who knows where it is now.... I therefore decided to use my newfound coding skills to write an app to keep track of my list.
+                            My Bird List is an app that allows birdwatchers to store a list of the birds they've seen along with an image and location of the sighting.
+                            Built with a Laravel back-end and React front-end, functionality so far includes registering as a user, adding a bird sighting, accessing your list and seeing the sightings on a React
+                            Leaflet map - this can be seen in the dev server video above. It's not yet deployed live as my next steps are to add user authentication and log in, edit your list and individual sightings
+                            and write the unit tests for the back-end. You can see the latest code on GitHub via the links below.
+                        </p>
+                        <a href="https://github.com/AndyB0o1/bird-list-app-fe" target="_blank" className="font-bold hover:text-orange-500">Front-end on GitHub |</a>
+                        <a href="https://github.com/AndyB0o1/bird-list-app-api" target="_blank" className="font-bold hover:text-orange-500"> Back-end on GitHub</a>
+                    </div>
+                    <div className="mb-2 p-2 border-b border-cyan-900 basis-2/5 font-mono">
                         <h3 className="mb-5 font-bold">Laravel RESTful API for a book swap site</h3>
                         <div className="h-72 mb-4 content-center">
                             <img src="/laravel-book-swap.png" alt="Laravel code" className="h-72 mx-auto" />
