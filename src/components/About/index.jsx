@@ -19,7 +19,7 @@ export default function About() {
     return (
         <div>
             <div className="about p-2 m-1 bg-black font-mono text-base sm:text-xl text-white" onClick={revealAbout}>
-                <p><span className="text-orange-500">About </span><span>Me</span></p>
+                <p><span className="pb-1 text-orange-500">About </span><span>Me</span></p>
                 <div className="aboutText text-xs sm:text-base">
                     <p><span className="text-pink-500">export default </span><span className="text-sky-500">function </span><span className="text-yellow-300">About</span>() <span className="text-orange-500">{bracket1}</span></p>
                     <p className="text-white">return {bracket3} </p>
@@ -48,11 +48,11 @@ export default function About() {
                 </p>
                 <br></br>
                 <p>My previous career experience means I bring additional skills to roles such as problem solving,
-                    stakeholder engagement, teamworking, requirement gathering, project management, time management and strong 
-                    communication skills. Having also been the 'customer' for development projects means I bring an additional, 
+                    stakeholder engagement, teamworking, requirement gathering, project management, time management and strong
+                    communication skills. Having also been the 'customer' for development projects means I bring an additional,
                     and hopefully useful, perspective to software development roles.
                 </p>
-                <a href="/AndyBoolCV.pdf"target="_blank" className="font-bold hover:text-orange-500">See my CV</a>
+                <a href="/AndyBoolCV.pdf" target="_blank" className="font-bold hover:text-orange-500">See my CV</a>
             </div>
         </div>
     )
